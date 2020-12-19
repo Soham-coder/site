@@ -6,7 +6,7 @@ botui.message.add({
         }).then(function(){
         return botui.message.bot ({
         delay: 800,
-        content: 'I am Soham Mondal, currently a senior Engineer @ SAMSUNG SEMICONDUCTOR INDIA R&D Institute BANGALORE, INDIA.'
+        content: 'I am Soham Mondal, currently a senior Engineer @ SAMSUNG SEMICONDUCTOR INDIA R&D BANGALORE, INDIA.'
     });
 }).then(function() {
     return botui.message.bot ({
@@ -47,7 +47,7 @@ botui.message.add({
             return botui.message.add({
             loading:true,
             delay:2000,
-            content: 'You can mail me at sohammondal39@gmail.com and if you\'re in Bangalore, we can talk about design over a coffee.'
+            content: 'You can mail me at sohammondal39@gmail.com and if you\'re in Bangalore, we can talk about tech over a cup of tea.'
             });
         }
         else
@@ -85,11 +85,11 @@ botui.message.add({
                 content: 'I was born in Kolkata, and travelled to 7 different cities of India.\nI can easily adapt to new environments, and embrace change positively.'
             }).then(function(){
                 return botui.message.add({delay: 500,
-                content: 'After high school, I then joined Jadavpur University Kolkata, one of the good institute of india to study Electronics & Telecomm Engg. After that in 3rd year on_campus internship I got into SAMSUNG and now I am appointed as a DESIGN_VERIFICATION engineer there.'
+                content: 'After high school, I then joined Jadavpur University Kolkata, one of the good institute of india to study Electronics & Telecomm Engg. After that in 3rd year on_campus internship I got into SAMSUNG and now I am appointed as a SoC DESIGN & VERIFICATION engineer there.'
             }).then(function(){
                 return botui.message.add({
                     delay: 500,
-                    content: 'Irresepective of my field of Job I take interest in learning new technologies, be it python scripting, web development or VIP development or studying design architecture specifications.'
+                    content: 'Irresepective of my field of Job I take interest in learning new technologies, be it python scripting, shell scripting, automation, web development or VIP development or studying design architecture specifications or hardware design and micro-architecture development.'
                 }).then(function(){
                     return botui.action.button({
                         delay:1000,
@@ -145,11 +145,11 @@ botui.message.add({
                 content: 'I have hands-on experience with both conducting design and verification as well with Network-on-Chip interfaces, AMBA cadence Denali VIPs.'
             }).then(function(){
                 return botui.message.add({delay: 500,
-                content: 'Proficient in Sketch, Adobe Illustrator, Adobe Indesign and Principle.'
+                content: 'Proficient in Sketch, LaTeX, Adobe Illustrator, Adobe Indesign and Principle, Microsoft office tools.'
             }).then(function(){
                 return botui.message.add({
                     delay: 500,
-                    content: 'Comfortable with Python, HTML, CSS, Javascript, and Occasionally tinker with arduino and sensors to build interactive prototypes.'
+                    content: 'Comfortable with Python, HTML, CSS, Javascript, and Occasionally tinker with arduino and sensors or SoC boards like Raspberry Pi 3b+ to build interactive prototypes.'
                 }).then(function(){
                     return botui.action.button({
                         delay:1000,
@@ -176,11 +176,11 @@ botui.message.add({
                 content: 'I was born in Kolkata, and travelled to 7 different cities of India.\nI can easily adapt to new environments, and embrace change positively'
             }).then(function(){
                 return botui.message.add({delay: 500,
-                content: 'After high school, I then joined Jadavpur University Kolkata, one of the good institute of india to study Electronics & Telecomm Engg. After that in 3rd year on_campus internship I got into SAMSUNG and now I am appointed as a DESIGN_VERIFICATION engineer there.'
+                content: 'After high school, I then joined Jadavpur University Kolkata, one of the good institute of india to study Electronics & Telecomm Engg. After that in 3rd year on_campus internship I got into SAMSUNG and now I am appointed as a SoC DESIGN & VERIFICATION engineer there.'
             }).then(function(){
                 return botui.message.add({
                     delay: 500,
-                    content: 'Irresepective of my field of Job I take interest in learning new technologies, be it python scripting, web development or VIP development or studying design architecture specifications.'
+                    content: 'Irresepective of my field of Job I take interest in learning new technologies, be it python scripting, shell scripting, automation, web development or VIP development or studying design architecture specifications or hardware design and micro-architecture development.'
                 })
             });
             });
@@ -208,11 +208,11 @@ botui.message.add({
                 content: 'I have hands-on experience with both conducting design and verification as well with Network-on-Chip interfaces, AMBA cadence Denali VIPs.'
             }).then(function(){
                 return botui.message.add({delay: 500,
-                content: 'Proficient in Sketch, Adobe Illustrator, Adobe Indesign and Principle.'
+                content: 'Proficient in Sketch, LaTeX, Adobe Illustrator, Adobe Indesign and Principle, Microsoft office tools.'
             }).then(function(){
                 return botui.message.add({
                     delay: 500,
-                    content: 'Comfortable with Python, HTML, CSS, Javascript, and Occasionally tinker with arduino and sensors to build interactive prototypes.'
+                    content: 'Comfortable with Python, HTML, CSS, Javascript, and Occasionally tinker with arduino and sensors or SoC boards like Raspberry Pi 3b+ to build interactive prototypes.'
                 })
             });
             }); 
@@ -235,14 +235,14 @@ botui.message.add({
             {
                 return botui.message.add({
                     delay: 500,
-                    content: 'You can check out my work at my [portfolio webiste](https://sakshimeena.github.io)'
+                    content: 'You can check out my work at my [portfolio webiste](https://soham-coder.github.io/site/)'
                 });
             }
             else
             {
                 return botui.message.add({
                     delay: 500,
-                    content: 'Feel free to drop me a mail at sohammondal39@gmail.'
+                    content: 'Feel free to drop me a mail at sohammondal39@gmail.com'
                 })
             }
         })
